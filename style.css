@@ -1,0 +1,242 @@
+/*
+ Theme Name:   Coaching Child
+ Theme URI:    http://coaching.thimpress.com/
+ Description:  Coaching Child Theme
+ Author:       ThimPress
+ Author URI:   http://thimpress.com
+ Template:     coaching
+ Version:      1.0.0
+ Text Domain:  coaching-child
+*/
+
+/**** bouton ***/
+
+.iconbox-push .content-inner .desc-icon-box .smicon-read {
+    border: 2px solid;
+}
+
+.thim-list-event .item-event .view-detail a, .thim-list-event .view-all-link {
+    border: 2px solid !important;
+}
+
+.thim-list-posts.life_homepage .readmore a, .thim-gallery-video .readmore a {
+    border: 2px solid !important;
+}
+
+.thim-widget-courses .view-all-courses {
+    border: 2px solid !important;
+}
+
+.thim-list-event .view-all-link:hover,
+.thim-widget-courses .view-all-courses:hover {
+    color: #eea2a2;
+    background-color: #fff;
+}
+
+thim-course-grid .course-item .course-thumbnail:hover > a.course-readmore,
+.thim-widget-button .border-button .widget-button.normal:not(.very-rounded) {
+    border: 2px solid !important;
+}
+
+/**** Textes ****/
+
+.thim-list-event .item-event .title a, article .entry-header .entry-title a,
+.thim-course-grid .course-item .thim-course-content .course-title a {
+    color: #9b3636;
+}
+
+.top_site_main:before {
+    background-color: transparent !important
+}
+
+.sc_heading .title {
+    color: #eea2a2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #eea2a2;
+}
+
+#pg-6199-2 {
+    margin-bottom: 0 !important;
+}
+
+#pg-6199-9 {
+    margin-bottom: 40px !important;
+}
+
+.site-content {
+    padding: 0
+}
+
+.thim-widget-icon-box .boxes-icon.circle, footer#colophon .thim-social a .fa {
+    border: 2px solid;
+}
+
+footer#colophon,
+footer#colophon .iteorigin-widget-tinymce.textwidget {
+    font-size: 14px !important;
+}
+
+.share-post .single-title:before, .related-archive .single-title:before,
+woocommerce #content .comments-area .comment-respond-area #respond.comment-respond .comment-reply-title:after, .woocommerce .comments-area .comment-respond-area #respond.comment-respond .comment-reply-title:after {
+    border: 2px solid #eea2a2 !important;
+    background: #fff !important;
+    color: #eea2a2 !important;
+}
+
+.page-content .comments-area .form-submit input#submit {
+    border: 2px solid !important;
+}
+
+.comments-area .comment-respond-area #respond.comment-respond .comment-reply-title:after {
+    background: #fff;
+    color: #eea2a2;
+    background-color: #eea2a2;
+}
+
+.iconbox-push .push_image {
+    display: none;
+}
+
+.panel-grid-cell .push-box {
+    border-bottom: 1px solid transparent;
+}
+
+.site-main {
+    margin-top: 40px
+}
+
+#sidebar .thim-list-event .item-event .event-wrapper {
+    padding: 0 !important;
+}
+
+#sidebar .thim-list-event .item-event .time-from {
+    margin-right: 0 !important
+}
+
+.wpcf7-form input[type="text"]:focus, .wpcf7-form input[type="email"]:focus, .wpcf7-form input[type="tel"]:focus, .wpcf7-form input[type="number"]:focus, .wpcf7-form input[type="date"]:focus, .wpcf7-form select:focus, .wpcf7-form textarea:focus {
+    border-left: 4px solid #eea2a2;
+}
+
+.wpcf7-form label {
+    width: 100%
+}
+
+#toolbar {
+    border-bottom: 1px solid rgba(155, 54, 54, 0.2);
+}
+.countdown-section {
+    background: rgba(236, 178, 178, .8) !important;
+    border: 1px solid rgba(236, 178, 178, .9) !important;
+}
+
+.nav-tabs .nav-item.open .nav-link, .nav-tabs .nav-item.open .nav-link:focus, .nav-tabs .nav-item.open .nav-link:hover, .nav-tabs .nav-link.active, .nav-tabs .nav-link.active:focus, .nav-tabs .nav-link.active:hover {
+    color: #55595c;
+    background-color: #eea2a2;
+    border-color: #ddd #ddd transparent;
+}
+
+a {
+    color: #9b3636;
+}
+
+footer#colophon .copyright-area a {
+    color: #9b3636;
+}
+
+footer#colophon .copyright-area a:hover {
+    color: #333;
+}
+
+.breadcrumbs-wrapper .woocommerce-breadcrumb li, .breadcrumbs-wrapper .thim-breadcrumbs li, .breadcrumbs-wrapper #breadcrumbs li {
+    font-size: 14px;
+}
+
+.breadcrumbs-wrapper .woocommerce-breadcrumb a, .breadcrumbs-wrapper .thim-breadcrumbs a, .breadcrumbs-wrapper #breadcrumbs a {
+    margin-right: 8px;
+}
+
+.breadcrumbs-wrapper .woocommerce-breadcrumb a:after, .breadcrumbs-wrapper .thim-breadcrumbs a:after, .breadcrumbs-wrapper #breadcrumbs a:after {
+    content: '\f105';
+    margin: 0 0 0 8px;
+}
+
+.thim-social.no-border a {
+    font-size: 20px;
+}
+
+.wpcf7-form-control-wrap.capture-ebook {
+    display: none
+}
+
+.wysija-paragraph input[type="text"] {
+    background-color: transparent;
+    border: 1px solid #eeeeee;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+    min-height: 40px;
+    padding: 5px 10px;
+    line-height: 28px;
+    font-size: 12px;
+}
+
+.wysija-paragraph input:focus {
+    border: 1px solid #eea2a2;
+    border-left: 4px solid #eea2a2;
+    padding: 2px;
+}
+
+.wysija-submit.wysija-submit-field {
+    margin-top: 20px;
+    clear: both;
+    border-radius: 30px;
+    padding: 5px 30px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+
+}
+
+.wysija-submit.wysija-submit-field:hover {
+    color: #eea2a2;
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+
+.content-pusher {
+    padding-top: 0 !important;
+}
+
+.breadcrumbs-wrapper {
+    padding-top: 180px !important;
+}
+
+
+
+.site-content {
+    padding: 15px;
+    min-height:300px;
+}
+
+@media (min-width: 767px) {
+    .site-content {
+        padding:20px  15px;
+        max-width:100%
+    }
+}
+
+
+#main.site-main {
+    padding-bottom: 15px;
+}
+
+.post-type-archive-tp_event .site-main {
+    min-width:200px;
+}
