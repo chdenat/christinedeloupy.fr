@@ -16,7 +16,9 @@
 }
 
 .thim-list-event .item-event .view-detail a, .thim-list-event .view-all-link {
-    border: 2px solid !important;
+    border: 2px solid #eea2a2 !important;
+    color: #eea2a2;
+    background-color: #fff;
 }
 
 .thim-list-posts.life_homepage .readmore a, .thim-gallery-video .readmore a {
@@ -126,6 +128,7 @@ woocommerce #content .comments-area .comment-respond-area #respond.comment-respo
 #toolbar {
     border-bottom: 1px solid rgba(155, 54, 54, 0.2);
 }
+
 .countdown-section {
     background: rgba(236, 178, 178, .8) !important;
     border: 1px solid rgba(236, 178, 178, .9) !important;
@@ -204,12 +207,60 @@ footer#colophon .copyright-area a:hover {
 
 }
 
-.wysija-submit.wysija-submit-field:hover {
-    color: #eea2a2;
-    background-color: #fff;
-    border: 2px solid #fff;
+.widget_wysija_cont .updated, .widget_wysija_cont .error, .widget_wysija_cont .xdetailed-errors {
+    margin: 5px 0 15px;
+    color: #333333;
+    font-family: McLaren;
+    font-size: 14px;
+    line-height: 1.4em;
+    padding: 1rem !important;
 }
 
+.wysija-submit.wysija-submit-field {
+    color: #eea2a2;
+    background-color: #fff;
+    border: 2px solid #eea2a2;
+}
+.wysija-submit.wysija-submit-field:hover {
+    color: #fff;
+    background-color: #eea2a2;
+}
+
+#welcomepopup_content {
+    width:100% !important
+}
+#welcomepopup_content .wysija-submit.wysija-submit-field:hover {
+    color: #fff;
+    background-color: #eea2a2;
+}
+
+#welcomepopup_content label {
+    font-family: McLaren;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.7em;
+    color: #666666;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+#welcomepopup_content p  {
+    margin:0;
+}
+
+#welcomepopup_window {
+    -moz-box-shadow: rgba(32, 32, 32, 0.5) 0 4px 30px;
+    -o-box-shadow: rgba(32, 32, 32, 0.5) 0 4px 30px;
+    -webkit-box-shadow: rgba(32, 32, 32, 0.5) 0 4px 30px;
+    -khtml-box-shadow: rgba(32, 32, 32, 0.5) 0 4px 30px;
+    box-shadow: rgba(32, 32, 32, 0.5) 0 4px 30px;
+}
+#welcomepopup_content .sc_heading {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
 .content-pusher {
     padding-top: 0 !important;
 }
@@ -218,25 +269,53 @@ footer#colophon .copyright-area a:hover {
     padding-top: 180px !important;
 }
 
-
-
 .site-content {
     padding: 15px;
-    min-height:300px;
+    min-height: 300px;
 }
 
 @media (min-width: 767px) {
     .site-content {
-        padding:20px  15px;
-        max-width:100%
+        padding: 20px 15px;
+        max-width: 100%
     }
 }
-
 
 #main.site-main {
     padding-bottom: 15px;
 }
 
 .post-type-archive-tp_event .site-main {
-    min-width:200px;
+    min-width: 200px;
 }
+
+login-title, input[type=submit] {
+    font-family: Montserrat;
+    border-radius: 20px;
+    border: 2px solid #eea2a2;
+    background: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eea2a2;
+    font-size: 13px;
+    padding: 5px 30px;
+    height: 40px;
+    line-height: 28px;
+}
+
+
+CSS
+
+.tp-caption {
+
+    white-space: normal !important;
+}
+
+/***
+* Révolution slider
+*/
+.tp-caption {
+    white-space: normal !important;
+}
+
+
