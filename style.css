@@ -15,10 +15,29 @@
     border: 2px solid;
 }
 
-.thim-list-event .item-event .view-detail a, .thim-list-event .view-all-link {
-    border: 2px solid #eea2a2 !important;
-    color: #eea2a2;
-    background-color: #fff;
+.thim-list-event .item-event .view-detail a, .thim-list-event .view-all-link,.wc-tab .readmore {
+    border: 2px solid #d65252 !important;
+    color: #d65252 !important;
+    background-color: #fff !important;
+}
+
+.thim-list-event .item-event .view-detail a:hover, .thim-list-event .view-all-link:hover,.wc-tab .readmore:hover {
+    border: 2px solid #d65252 !important;
+    color: #fff !important;
+    background-color: #d65252 !important;
+}
+
+.thim-list-posts.life_homepage .readmore a, .thim-gallery-video .readmore a {
+    border: 2px solid #d65252 !important;
+    color: #d65252 !important;
+    background-color: #fff !important;
+}
+
+.thim-list-posts.life_homepage .readmore a:hover, .thim-gallery-video .readmore a:hover {
+    border: 2px solid #d65252 !important;
+    color: #fff !important;
+!important;
+    background-color: #d65252 !important;
 }
 
 .thim-list-posts.life_homepage .readmore a, .thim-gallery-video .readmore a {
@@ -31,7 +50,7 @@
 
 .thim-list-event .view-all-link:hover,
 .thim-widget-courses .view-all-courses:hover {
-    color: #eea2a2;
+    color: #d65252;
     background-color: #fff;
 }
 
@@ -44,7 +63,7 @@ thim-course-grid .course-item .course-thumbnail:hover > a.course-readmore,
 
 .thim-list-event .item-event .title a, article .entry-header .entry-title a,
 .thim-course-grid .course-item .thim-course-content .course-title a {
-    color: #9b3636;
+    color: #d65252;
 }
 
 .top_site_main:before {
@@ -52,11 +71,11 @@ thim-course-grid .course-item .course-thumbnail:hover > a.course-readmore,
 }
 
 .sc_heading .title {
-    color: #eea2a2;
+    color: #d65252 ;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #eea2a2;
+    color: #d65252 ;
 }
 
 #pg-6199-2 {
@@ -82,9 +101,9 @@ footer#colophon .iteorigin-widget-tinymce.textwidget {
 
 .share-post .single-title:before, .related-archive .single-title:before,
 woocommerce #content .comments-area .comment-respond-area #respond.comment-respond .comment-reply-title:after, .woocommerce .comments-area .comment-respond-area #respond.comment-respond .comment-reply-title:after {
-    border: 2px solid #eea2a2 !important;
+    border: 2px solid #d65252 !important;
     background: #fff !important;
-    color: #eea2a2 !important;
+    color: #d65252 !important;
 }
 
 .page-content .comments-area .form-submit input#submit {
@@ -93,8 +112,8 @@ woocommerce #content .comments-area .comment-respond-area #respond.comment-respo
 
 .comments-area .comment-respond-area #respond.comment-respond .comment-reply-title:after {
     background: #fff;
-    color: #eea2a2;
-    background-color: #eea2a2;
+    color: #d65252;
+    background-color: #d65252;
 }
 
 .iconbox-push .push_image {
@@ -103,10 +122,6 @@ woocommerce #content .comments-area .comment-respond-area #respond.comment-respo
 
 .panel-grid-cell .push-box {
     border-bottom: 1px solid transparent;
-}
-
-.site-main {
-    margin-top: 40px
 }
 
 #sidebar .thim-list-event .item-event .event-wrapper {
@@ -118,7 +133,7 @@ woocommerce #content .comments-area .comment-respond-area #respond.comment-respo
 }
 
 .wpcf7-form input[type="text"]:focus, .wpcf7-form input[type="email"]:focus, .wpcf7-form input[type="tel"]:focus, .wpcf7-form input[type="number"]:focus, .wpcf7-form input[type="date"]:focus, .wpcf7-form select:focus, .wpcf7-form textarea:focus {
-    border-left: 4px solid #eea2a2;
+    border-left: 4px solid #d65252;
 }
 
 .wpcf7-form label {
@@ -136,20 +151,37 @@ woocommerce #content .comments-area .comment-respond-area #respond.comment-respo
 
 .nav-tabs .nav-item.open .nav-link, .nav-tabs .nav-item.open .nav-link:focus, .nav-tabs .nav-item.open .nav-link:hover, .nav-tabs .nav-link.active, .nav-tabs .nav-link.active:focus, .nav-tabs .nav-link.active:hover {
     color: #55595c;
-    background-color: #eea2a2;
+    background-color: #d65252;
     border-color: #ddd #ddd transparent;
 }
 
-a {
-    color: #9b3636;
+.top_site_main > .overlay-top-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(238, 162, 162, 0.5);
+}
+
+a, H1, h2, h3, h4 {
+    color: #d65252;
+}
+
+.thim-widget-list-post article .entry-header .entry-title a:hover {
+    color: #fff;
 }
 
 footer#colophon .copyright-area a {
-    color: #9b3636;
+    color: #d65252;
 }
 
 footer#colophon .copyright-area a:hover {
     color: #333;
+}
+
+#masthead {
+    background-color: rgba(238, 162, 162, 0.4);
 }
 
 .breadcrumbs-wrapper .woocommerce-breadcrumb li, .breadcrumbs-wrapper .thim-breadcrumbs li, .breadcrumbs-wrapper #breadcrumbs li {
@@ -186,8 +218,8 @@ footer#colophon .copyright-area a:hover {
 }
 
 .wysija-paragraph input:focus {
-    border: 1px solid #eea2a2;
-    border-left: 4px solid #eea2a2;
+    border: 1px solid #d65252;
+    border-left: 4px solid #d65252;
     padding: 2px;
 }
 
@@ -217,21 +249,23 @@ footer#colophon .copyright-area a:hover {
 }
 
 .wysija-submit.wysija-submit-field {
-    color: #eea2a2;
+    color: #d65252;
     background-color: #fff;
-    border: 2px solid #eea2a2;
+    border: 2px solid #d65252;
 }
+
 .wysija-submit.wysija-submit-field:hover {
     color: #fff;
-    background-color: #eea2a2;
+    background-color: #d65252;
 }
 
 #welcomepopup_content {
-    width:100% !important
+    width: 100% !important
 }
+
 #welcomepopup_content .wysija-submit.wysija-submit-field:hover {
     color: #fff;
-    background-color: #eea2a2;
+    background-color: #d65252;
 }
 
 #welcomepopup_content label {
@@ -245,8 +279,9 @@ footer#colophon .copyright-area a:hover {
     margin-bottom: 5px;
     font-weight: 700;
 }
-#welcomepopup_content p  {
-    margin:0;
+
+#welcomepopup_content p {
+    margin: 0;
 }
 
 #welcomepopup_window {
@@ -256,33 +291,35 @@ footer#colophon .copyright-area a:hover {
     -khtml-box-shadow: rgba(32, 32, 32, 0.5) 0 4px 30px;
     box-shadow: rgba(32, 32, 32, 0.5) 0 4px 30px;
 }
+
 #welcomepopup_content .sc_heading {
     position: relative;
     margin: 0;
     padding: 0;
 }
+
 .content-pusher {
     padding-top: 0 !important;
 }
 
 .breadcrumbs-wrapper {
-    padding-top: 180px !important;
+    /*  padding-top: 180px !important;*/
 }
 
 .site-content {
-    padding: 15px;
+    padding: 0px;
     min-height: 300px;
 }
 
 @media (min-width: 767px) {
     .site-content {
-        padding: 20px 15px;
-        max-width: 100%
+        padding: 0 15px;
+        max-width: 100%;
     }
 }
 
 #main.site-main {
-    padding-bottom: 15px;
+    /* padding-bottom: 15px;*/
 }
 
 .post-type-archive-tp_event .site-main {
@@ -292,30 +329,164 @@ footer#colophon .copyright-area a:hover {
 login-title, input[type=submit] {
     font-family: Montserrat;
     border-radius: 20px;
-    border: 2px solid #eea2a2;
+    border: 2px solid #d65252;
     background: #fff;
     text-transform: uppercase;
     font-weight: 700;
-    color: #eea2a2;
+    color: #d65252;
     font-size: 13px;
     padding: 5px 30px;
     height: 40px;
     line-height: 28px;
 }
 
-
-CSS
-
-.tp-caption {
-
-    white-space: normal !important;
-}
-
-/***
-* Révolution slider
-*/
 .tp-caption {
     white-space: normal !important;
 }
 
+.thim-widget-testimonials .thim-testimonial-carousel .owl-stage-outer .owl-item .testimonial-item .testimonial-content {
+    color: #d65252;
+}
 
+#pg-6199-5 {
+    margin-bottom: 0px !important;
+}
+
+.thim-list-posts.life_homepage, .thim-gallery-video {
+    padding-bottom: 20px
+}
+
+.woocommerce #content .comments-area .comment-list .comment-list-inner .comments-title:before, .woocommerce .comments-area .comment-list .comment-list-inner .comments-title:before, .comments-area .comment-list .comment-list-inner .comments-title:before {
+    background: #d65252;
+}
+
+.woocommerce #content .comments-area .comment-list .comment-list-inner .comment-author.meta, .woocommerce .comments-area .comment-list .comment-list-inner .comment-author.meta, .comments-area .comment-list .comment-list-inner .comment-author.meta {
+    color: #b3b3b3
+}
+
+.woocommerce #content .comments-area .comment-list .comment-list-inner .comment-author.meta strong, .woocommerce .comments-area .comment-list .comment-list-inner .comment-author.meta strong, .comments-area .comment-list .comment-list-inner .comment-author.meta strong {
+    color: #000
+}
+
+.woocommerce #content .comments-area .comment-list .comment-list-inner li .wrapper-comment, .woocommerce .comments-area .comment-list .comment-list-inner li .wrapper-comment, .comments-area .comment-list .comment-list-inner li .wrapper-comment {
+    border-top: 1px solid #eee
+}
+
+.woocommerce #content .comments-area .comment-list .comment-list-inner li .comment-extra-info .date, .woocommerce .comments-area .comment-list .comment-list-inner li .comment-extra-info .date, .comments-area .comment-list .comment-list-inner li .comment-extra-info .date {
+    color: #ccc;
+}
+
+.woocommerce #content .comments-area .comment-respond-area #respond.comment-respond .comment-reply-title:after, .woocommerce .comments-area .comment-respond-area #respond.comment-respond .comment-reply-title:after, .comments-area .comment-respond-area #respond.comment-respond .comment-reply-title:after {
+    background: #d65252;
+}
+
+.woocommerce #content .comments-area .comment-respond-area #respond.comment-respond .comment-notes, .woocommerce .comments-area .comment-respond-area #respond.comment-respond .comment-notes, .comments-area .comment-respond-area #respond.comment-respond .comment-notes {
+    color: #999;
+}
+
+.woocommerce #content .comments-area .comment-respond-area #respond.comment-respond .comment-notes:before, .woocommerce .comments-area .comment-respond-area #respond.comment-respond .comment-notes:before, .comments-area .comment-respond-area #respond.comment-respond .comment-notes:before {
+    background: #000;
+}
+
+.woocommerce #content .comments-area .comment-respond-area #respond.comment-respond .comment-form .comment-form-author input, .woocommerce .comments-area .comment-respond-area #respond.comment-respond .comment-form .comment-form-author input, .comments-area .comment-respond-area #respond.comment-respond .comment-form .comment-form-author input, .woocommerce #content .comments-area .comment-respond-area #respond.comment-respond .comment-form .comment-form-email input, .woocommerce .comments-area .comment-respond-area #respond.comment-respond .comment-form .comment-form-email input, .comments-area .comment-respond-area #respond.comment-respond .comment-form .comment-form-email input, .woocommerce #content .comments-area .comment-respond-area #respond.comment-respond .comment-form .comment-form-url input, .woocommerce .comments-area .comment-respond-area #respond.comment-respond .comment-form .comment-form-url input, .comments-area .comment-respond-area #respond.comment-respond .comment-form .comment-form-url input {
+    border: 1px solid #ebebeb;
+}
+
+.woocommerce #content .comments-area .comment-respond-area #respond.comment-respond .comment-form textarea, .woocommerce .comments-area .comment-respond-area #respond.comment-respond .comment-form textarea, .comments-area .comment-respond-area #respond.comment-respond .comment-form textarea {
+    border: 1px solid #ebebeb;
+}
+
+.product-grid .product__title .price {
+    color: #d65252;
+}
+
+.woocommerce .cart-collaterals .wc-proceed-to-checkout a.checkout-button {
+    background-color: #d65252;
+}
+
+.woocommerce-cart-form .actions .coupon .button {
+    color: #d65252 !important;
+    border: 2px solid #d65252 !important;
+    background-color: #ffffff;
+}
+
+.woocommerce-cart-form .actions .coupon .button:hover {
+    color: #ffffff !important;
+    border: 2px solid #d65252 !important;
+    background-color: #d65252;
+}
+
+.woocommerce-cart-form .actions input[name=update_cart] {
+    background-color: #d65252;
+}
+
+input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    background-color: #d65252;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+    background-color: #d65252;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+.woocommerce .woocommerce-checkout input.button:hover {
+    background-color: #d65252 !important;
+}
+
+.thim-slider-heading {
+    width: 100vw !important;
+}
+
+footer#colophon .thim-social a {
+    color: #ffffff;
+}
+
+.site-content {
+    margin-top:30px
+}
+article .entry-header .entry-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0 0 ! important;
+    line-height: 1.6em;
+}
+.thim-list-posts life_homepage .entry-title, .thim-list-posts life_homepage a,
+.thim-list-posts life_homepage article .entry-header .entry-title a {
+    font-size: 20px !important;
+    line-height: 1em !important;
+    color: #fff !important;
+}
+
+article .entry-header .date-meta {
+    color: #d65252;
+}
+.thim-list-event .item-event {
+    background: transparent !important;
+    color: #fff !important;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+}
+.thim-list-event .item-event h5 a, .thim-list-event .item-event .time-from {
+    color: #fff !important;
+}
+
+.sow-carousel-item h3 a{
+    text-transform: uppercase !important;
+    font-weight: 700;
+    color: #fff !important;
+}
+
+
+/****** WOOCOMMERCE **/
+
+/* on interdit a description si shortcut */
+.page .woocommerce-tabs.wc-tabs-wrapper {
+    display:none;
+}
+
+.list-sale-flash {
+    display: none !important;
+}
