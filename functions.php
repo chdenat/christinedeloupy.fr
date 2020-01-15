@@ -29,9 +29,9 @@ function my_add_excerpts_to_pages()
 add_filter('widget_text', 'do_shortcode');
 
 
-add_filter('https_ssl_verify', '__return_false');
+//add_filter('https_ssl_verify', '__return_false');
 ////
-add_filter('https_local_ssl_verify', '__return_false');
+//add_filter('https_local_ssl_verify', '__return_false');
 
 
 function add_google_verification()
